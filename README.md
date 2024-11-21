@@ -36,7 +36,7 @@ This is a backend API for a social network web application. It allows users to s
 1. Clone the repository:
    git clone https://github.com/bmurfield/SocialNetwork.git
 2. Navigate to the project directory:
-    cd social-network-api
+    cd SocialNetwork
 3. Install dependencies:
     npm install
 4. Start the server:
