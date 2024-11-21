@@ -1,7 +1,8 @@
-const express = require('express');
+import express from 'express';
+import User from '../models/User.js';
+import Thought from '../models/Thought.js';
+
 const router = express.Router();
-const User = require('../models/User');
-const Thought = require('../models/Thought');
 
 // GET all users
 router.get('/', async (req, res) => {
@@ -104,4 +105,4 @@ router.delete('/:userId/friends/:friendId', async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
