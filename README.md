@@ -90,7 +90,7 @@ Remove a reaction by ID.
 
 ## Credits
 
-Recieved tutoring help Insomnia and Routing from Joem Casusi. 
+Recieved tutoring help with Insomnia and Routing from Joem Casusi. 
 
 ---
 
