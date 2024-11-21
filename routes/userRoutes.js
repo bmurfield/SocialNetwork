@@ -7,7 +7,7 @@ const router = express.Router();
 // GET all users
 router.get('/', async (req, res) => {
   try {
-    const users = await User.find();
+    const users = await User.find().populate('friends');
     res.json(users);
   } catch (err) {
     res.status(500).json(err);
@@ -51,7 +51,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// DELETE a user by its _id and bonus: remove associated thoughts
+// DELETE a user by its _id and remove associated thoughts
 router.delete('/:id', async (req, res) => {
   try {
     const user = await User.findByIdAndDelete(req.params.id);
