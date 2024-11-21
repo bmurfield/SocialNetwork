@@ -41,7 +41,7 @@ This is a backend API for a social network web application. It allows users to s
     npm install
 4. Start the server:
     npm start
-The server will run on http://localhost:3001 by default.
+(The server will run on http://localhost:3001 by default.)
 
 ---
 
